@@ -83,11 +83,14 @@ jupyter nbconvert --execute --to notebook scripts/merge_shapefiles.ipynb
 * Processed Dataset: Shapefile with over 12,000 entries of power plants and related attributes.
 * Visualization: Map layers displaying corrected placements of power plants in Bavaria.
 <p>
-  <img src="reports/capacity_by_energy.png" width="45%">
-  <img src="reports/capacity_by_state.png" width="45%">
+  <img src="outputs/map_of_the_dataset_with_outliers.png" width="45%">
+  <img src="map_of_outlier_4.png" width="45%">
 </p>
-   [Example Map](https://github.com/ntkniazeva/Automated_Power_Plants_Bavaria/blob/main/output/Example%20map.jpg).
-
+<p>
+  <img src="outputs/map_of_outlier_5.png" width="45%">
+  <img src="outputs/map_of_the_final_dataset" width="45%">
+</p>
+   
 ## Acknowledgments
 This work was supervised by Prof. Dr. rer. nat. T. Hamacher and advisor Patrick Buchenberg at the Chair of Renewable and Sustainable Energy Systems, Technical University of Munich.
 
