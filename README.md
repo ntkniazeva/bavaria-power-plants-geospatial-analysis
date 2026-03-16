@@ -83,10 +83,25 @@ jupyter nbconvert --execute --to notebook scripts/merge_shapefiles.ipynb
 * Processed Dataset: Shapefile with over 12,000 entries of power plants and related attributes.
 * Visualization: Map layers displaying corrected placements of power plants in Bavaria.
 <p>
-  <img src="output/map_of_the_dataset_with_outliers.png" width="20%">
-  <img src="output/map_of_outlier_4.png" width="20%">
-  <img src="output/map_of_outlier_5.png" width="20%">
-  <img src="output/map_of_the_final_dataset.png" width="20%">
+  <figure style="display:inline-block; text-align:center;">
+    <img src="output/map_of_the_dataset_with_outliers.png" width="20%">
+    <figcaption>Dataset with detected outliers</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; text-align:center;">
+    <img src="output/map_of_outlier_4.png" width="20%">
+    <figcaption>Outlier example #4</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; text-align:center;">
+    <img src="output/map_of_outlier_5.png" width="20%">
+    <figcaption>Outlier example #5</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; text-align:center;">
+    <img src="output/map_of_the_final_dataset.png" width="20%">
+    <figcaption>Final cleaned dataset</figcaption>
+  </figure>
 </p>
    
 ## Acknowledgments
